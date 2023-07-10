@@ -1,0 +1,36 @@
+.home {
+  background: url(/src/images/header-main-background.png);
+  background-repeat: no-repeat;
+}
+
+.colorawe {
+  font-size: 144px;
+  font-family: "Playfair Display", serif;
+}
+
+.dream-nike {
+  margin-left: 164px;
+  padding-bottom: 12px;
+  font-size: 72px;
+}
+
+.paragraph {
+  padding-bottom: 41px;
+  font-size: 18px;
+  margin: 483px 768px 291px 164px;
+  padding-bottom: 41px;
+}
+
+.btn {
+  border-radius: 10px;
+  background: #8e32c6;
+  padding: 20px 60px 20px 60px;
+  display: inline-block;
+  margin: 0 auto;
+  
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+}

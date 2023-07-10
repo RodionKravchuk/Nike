@@ -1,127 +1,62 @@
 .header {
   background: #012d63;
+  padding: 16px 0;
+}
+
+.header-container {
+  max-width: 1107px;
+  margin: 0 auto; 
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.logo-nike {
-  width: 100px;
-  height: 60px;
-  margin-left: 168px;
-  margin-top: 16px;
+.language {
+  display: flex;
+
+  flex-direction: column;
+  margin-left: 73px;
+  margin-right: 165px;
+}
+
+
+
+.background-logo {
+  margin: 94px 1110px 644px 170px;
+}
+
+.c-r {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.colorawe::before {
+  content: "";
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list li:hover {
+  color: #fff;
+  font-weight: 400;
+}
+
+.nav-list li {
+  font-weight: 300;
+  color: #c7c7c7;
+}
+
+.languige-list {
+  display: flex;
+  gap: 15px;
 }
 
 .nav-list {
   display: flex;
   gap: 29px;
-  align-items: center;
 }
-
-.nav-1 {
-  display: flex;
-  width: 112px;
-  height: 30px;
-  font-size: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  margin-left: 152px;
-}
-.nav-2 {
-  display: flex;
-  width: 86px;
-  height: 30px;
-
-  font-size: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-}
-.nav-3 {
-  display: flex;
-  width: 125px;
-  height: 30px;
-
-  font-size: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-}
-.nav-4 {
-  display: flex;
-  width: 88px;
-  height: 30px;
-
-  font-size: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-}
-.nav-5 {
-  display: flex;
-  width: 96px;
-  height: 30px;
-
-  font-size: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-}
-.nav-6 {
-  display: flex;
-  width: 58px;
-  height: 30px;
-
-  font-size: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-}
-
-.language {
-  display: flex;
-  width: 81px;
-  height: 30px;
-  flex-direction: column;
-  display: flex;
-  width: 81px;
-  height: 30px;
-  flex-direction: column;
-  flex-shrink: 0;
-  color: #dcdcdc;
-  font-size: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  margin-left: 73px;
-  margin-right: 165px;
-}
-
-.header-main-background {
-  width: 1910px;
-  height: 858px;
-}
-
-.nav-1:hover {
-  color: #fff;
-}
-
-.nav-2:hover {
-  color: #c7c7c7;
-}
-
-.nav-3:hover {
-  color: #c7c7c7;
-}
-
-.nav-4:hover {
-  color: #c7c7c7;
-}
-
-.nav-5:hover {
-  color: #c7c7c7;
-}
-.nav-6:hover {
-  color: #c7c7c7;
-}
+ 
